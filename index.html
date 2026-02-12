@@ -212,7 +212,7 @@
             <div class="link-card" onclick="showModal('qqgroup')">
                 <img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEQ3sZpjG-_r1qmzbxsvyb4vDDrGS8tDQAC0CEAAoLCYFQqsPP50QMLtToE.jpg" alt="QQ">
                 <div class="link-title">旗鼓相当</div>
-                <div class="link-desc">联系我们</div>
+                <div class="link-desc">联系我的QQ</div>
             </div>
         </div>
         <div class="footer">
@@ -295,9 +295,9 @@
                     hideModal();
                 };
             } else if (type === 'qqgroup') {
-                modalTitle.textContent = '是否跳转到作者群？作者是管理员';
+                modalTitle.textContent = '作者QQ：3624908357';
                 confirmBtn.onclick = () => {
-                    window.open('https://qm.qq.com/q/vE5RO5sweI', '_blank');
+                    
                     hideModal();
                 };
             }
